@@ -4,7 +4,7 @@ for i in range(int(input())):
     eval('s.{0}({1})'.format(*input().split()+['']))
 print(sum(s))
 
-#another solution
+#second solution
 n = input()
 s = set(map(int, input().split())) 
 for _ in range(int(input())):
@@ -12,7 +12,7 @@ for _ in range(int(input())):
     eval('s.{0}({1})'.format(*x+['']))
 print (sum(s))
 
-#another solution
+#third solution
 n = int(input())
 s = set(map(int, input().split())) 
 t = int(input())
@@ -21,7 +21,7 @@ for i in range(t):
     getattr(s,c) (*(int(x) for x in args))
 print (sum(s))
 
-#another solution
+#fourth solution
 n = int(input())
 s = set(map(int, input().split())) 
 for _ in range(int(input())):
@@ -31,7 +31,7 @@ for _ in range(int(input())):
     elif 'discard' == opt[0]: s.discard(int(opt[1]))
 print(sum(s))
 
-#another solution
+#fifth solution
 n = int(input())
 s = set(map(int, input().split())) 
 N = int(input())
